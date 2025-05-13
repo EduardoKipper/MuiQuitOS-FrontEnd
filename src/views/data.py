@@ -30,11 +30,11 @@ def data():
 
     # --- Line Chart: Quantidade ao longo do tempo ---
     line_df = df.set_index('Data')['Quantidade']
-    cols[0].line_chart(line_df)
+    cols[0].line_chart(line_df, color="#1bd072")
 
     # --- Bar Chart: Quantidade por Cidade ---
     bar_df = df.set_index('Cidade')['Quantidade']
-    cols[1].bar_chart(bar_df)
+    cols[1].bar_chart(bar_df, color="#1bd072")
 
     # --- Area Chart: Quantidade ao longo do tempo ---
-    cols[2].area_chart(line_df)
+    cols[2].area_chart(line_df, color="#1bd072")
