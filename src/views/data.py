@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import date, timedelta
 import random
 import pandas as pd
+from src.views.post_data import post_data_dialog
 
 datas = [(date.today() - timedelta(days=i)).isoformat() for i in range(10)]
 
@@ -20,6 +21,10 @@ dados = {
 
 def data():
     st.title(":material/dashboard: Dados de mosquitos :material/bug_report:")
+
+    if st.button("Fazer uma publicação", icon=":material/add:", use_container_width=True):
+        post_data_dialog()
+
     cols = st.columns(3)
 
     # --- DataFrame ---

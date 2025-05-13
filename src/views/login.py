@@ -6,7 +6,7 @@ def login_dialog():
     st.markdown("## Insira suas credenciais para acessar o sistema")
     user = st.text_input("Usuário", icon=":material/person:")
     password = st.text_input("Senha", icon=":material/key:", type="password")
-    if st.button("Entrar", use_container_width=True):
+    if st.button("Entrar", icon=":material/login:", use_container_width=True):
         with st.spinner("Validando informações..."):
             success = login(user=user, password=password)
         if success:
