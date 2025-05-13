@@ -11,7 +11,8 @@ def post_data_dialog():
             success = post_data(user=st.session_state['user'], cep=cep, intensity=intensity)
         if success:
             st.success("Dado publicado com sucesso!", icon=":material/check:")
-            sleep(1.5)
+            with st.spinner(" "):
+                sleep(1.5)
             st.rerun()
         else:
             st.error("Erro ao publicar dado", icon=":material/error:")
