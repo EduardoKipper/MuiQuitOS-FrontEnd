@@ -15,12 +15,12 @@ dados = {
         "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Salvador", "Fortaleza",
         "Curitiba", "Recife", "Porto Alegre", "Manaus", "Brasília"
     ],
-    "Quantidade": [random.randint(1, 100) for _ in range(10)],
+    "Intensidade": [random.randint(1, 10) for _ in range(10)],
     "Data": datas
 }
 
 def data():
-    st.title(":material/dashboard: Dados de mosquitos :material/bug_report:")
+    st.title(":material/dashboard: MuiQuitOS Dashboard :material/bug_report:")
 
     if st.button("Fazer uma publicação", icon=":material/add:", use_container_width=True):
         post_data_dialog()
@@ -33,13 +33,13 @@ def data():
     # --- Exibição de Dados ---
     st.dataframe(df)
 
-    # --- Line Chart: Quantidade ao longo do tempo ---
-    line_df = df.set_index('Data')['Quantidade']
+    # --- Line Chart: Intensidade ao longo do tempo ---
+    line_df = df.set_index('Data')['Intensidade']
     cols[0].line_chart(line_df, color="#1bd072")
 
-    # --- Bar Chart: Quantidade por Cidade ---
-    bar_df = df.set_index('Cidade')['Quantidade']
+    # --- Bar Chart: Intensidade por Cidade ---
+    bar_df = df.set_index('Cidade')['Intensidade']
     cols[1].bar_chart(bar_df, color="#1bd072")
 
-    # --- Area Chart: Quantidade ao longo do tempo ---
+    # --- Area Chart: Intensidade ao longo do tempo ---
     cols[2].area_chart(line_df, color="#1bd072")
