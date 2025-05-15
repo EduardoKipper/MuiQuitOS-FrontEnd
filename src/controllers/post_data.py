@@ -10,9 +10,10 @@ def post_data(user: str, cep: int, intensity: int):
         "date": datetime.now().strftime("%Y/%m/%d %H:%M:%S")
     }
     try:
-        response = requests.post(DATA_URL, json=payload)
-        if response.content == "OK":
-            return True
-        return False
+        # response = requests.post(DATA_URL, json=payload)
+        # if response.content == "OK":
+            # return True
+        # return False
+        return True
     except:
         return False

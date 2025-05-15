@@ -2,6 +2,21 @@ import streamlit as st
 import pandas as pd
 from src.views.post_data import post_data_dialog
 from src.controllers.get_data import get_data
+from datetime import date, timedelta
+import random
+
+datas = [(date.today() - timedelta(days=i)).isoformat() for i in range(20)]
+
+dados_mock = {
+    "Cidade": [
+        "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Salvador", "Fortaleza",
+        "Curitiba", "Recife", "Porto Alegre", "Manaus", "Brasília","São Paulo", 
+        "Rio de Janeiro", "Belo Horizonte", "Salvador", "Fortaleza",
+        "Curitiba", "Recife", "Porto Alegre", "Manaus", "Brasília"
+    ],
+    "Intensidade": [random.randint(1, 10) for _ in range(20)],
+    "Data": datas
+}
 
 def data():
     st.title(":material/dashboard: MuiQuitOS Dashboard :material/bug_report:")
@@ -9,8 +24,9 @@ def data():
     if st.button("Fazer uma publicação", icon=":material/add:", use_container_width=True):
         post_data_dialog()
 
-    with st.spinner("Buscando dados..."):
-        dados = get_data()
+    # with st.spinner("Buscando dados..."):
+        # dados = get_data()
+    dados = dados_mock
 
     cols = st.columns(3)
 
