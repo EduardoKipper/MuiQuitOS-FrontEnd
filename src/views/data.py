@@ -1,29 +1,16 @@
 import streamlit as st
-from datetime import date, timedelta
-import random
 import pandas as pd
 from src.views.post_data import post_data_dialog
-
-datas = [(date.today() - timedelta(days=i)).isoformat() for i in range(10)]
-
-dados = {
-    "Nome": [
-        "Ana Silva", "Bruno Costa", "Camila Rocha", "Daniel Souza", "Eduarda Lima",
-        "Felipe Alves", "Gabriela Pinto", "Henrique Fernandes", "Isabela Moraes", "João Pereira"
-    ],
-    "Cidade": [
-        "São Paulo", "Rio de Janeiro", "Belo Horizonte", "Salvador", "Fortaleza",
-        "Curitiba", "Recife", "Porto Alegre", "Manaus", "Brasília"
-    ],
-    "Quantidade": [random.randint(1, 100) for _ in range(10)],
-    "Data": datas
-}
+from src.controllers.get_data import get_data
 
 def data():
     st.title(":material/dashboard: Dados de mosquitos :material/bug_report:")
 
     if st.button("Fazer uma publicação", icon=":material/add:", use_container_width=True):
         post_data_dialog()
+
+    with st.spinner("Buscando dados..."):
+        dados = get_data()
 
     cols = st.columns(3)
 

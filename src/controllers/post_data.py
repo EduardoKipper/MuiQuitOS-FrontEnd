@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from src.utils import POST_DATA_URL
+from src.utils import DATA_URL
 
 def post_data(user: str, cep: int, intensity: int):
     payload = {
@@ -10,7 +10,7 @@ def post_data(user: str, cep: int, intensity: int):
         "date": datetime.now().strftime("%Y/%m/%d %H:%M:%S")
     }
     try:
-        response = requests.post(POST_DATA_URL, json=payload)
+        response = requests.post(DATA_URL, json=payload)
         if response.content == "OK":
             return True
         return False
