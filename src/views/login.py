@@ -1,5 +1,6 @@
 import streamlit as st
 from src.controllers.login import login
+from time import sleep
 
 @st.dialog("Login", width="large")
 def login_dialog():
@@ -12,6 +13,9 @@ def login_dialog():
         if success:
             st.session_state["user"] = user
             st.session_state["authorized"] = True
+            st.success("Sucesso", icon=":material/check:")
+            with st.spinner(" "):
+                sleep(1.5)
             st.rerun()
         else:
             st.error("Informações incorretas", icon=":material/error:")
