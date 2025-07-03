@@ -1,0 +1,81 @@
+Unnamed: 0,register_id,user_id,datetime,evidence,latitude,longitude,cep,city,state,neighbourhood,access_difficulty,focus_size,larvae,intensity
+0,1,ana.silva@gmail.com,2025-06-01T10:00:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,7,8,True,8.0
+1,2,carlos.souza@gmail.com,2025-06-02T14:30:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,2,5,False,2.8
+2,3,julia.martins@gmail.com,2025-06-03T09:15:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,5,3,False,3.2
+3,4,marina.oliveira@gmail.com,2025-06-04T16:45:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,8,7,True,8.0
+4,5,pedro.silva@gmail.com,2025-06-05T11:20:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,3,6,True,5.6
+5,6,lucas.costa@gmail.com,2025-06-06T13:10:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,6,9,True,8.0
+6,7,rafael.pereira@gmail.com,2025-06-07T08:00:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,9,1,True,6.0
+8,9,joao.santos@gmail.com,2025-06-09T15:00:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,4,2,True,4.4
+9,10,cleber@gmail.com,2025-06-10T12:00:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,10,10,True,10.0
+10,11,ana.silva@gmail.com,2025-06-11T09:00:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,2,8,True,6.0
+11,12,carlos.souza@gmail.com,2025-06-12T18:30:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,5,5,True,6.0
+12,13,julia.martins@gmail.com,2025-06-13T07:45:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,8,3,False,4.4
+13,14,marina.oliveira@gmail.com,2025-06-14T19:15:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,3,7,False,4.0
+14,15,pedro.silva@gmail.com,2025-06-15T20:20:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,6,6,False,4.8
+15,16,lucas.costa@gmail.com,2025-06-16T21:10:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,9,9,False,7.2
+16,17,rafael.pereira@gmail.com,2025-06-17T22:00:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,1,1,False,0.8
+18,19,joao.santos@gmail.com,2025-06-19T08:00:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,7,2,False,3.6
+19,20,cleber@gmail.com,2025-06-20T10:00:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,10,10,False,8.0
+20,21,ana.silva@gmail.com,2025-07-01T08:30:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,5,8,False,5.2
+21,22,carlos.souza@gmail.com,2025-07-02T12:45:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,8,5,False,5.2
+22,23,julia.martins@gmail.com,2025-07-03T14:10:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,3,3,False,2.4
+23,24,marina.oliveira@gmail.com,2025-07-04T16:00:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,6,7,False,5.2
+24,25,pedro.silva@gmail.com,2025-07-05T18:20:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,9,6,False,6.0
+25,26,lucas.costa@gmail.com,2025-07-06T20:00:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,1,9,False,4.0
+26,27,rafael.pereira@gmail.com,2025-07-07T09:30:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,4,1,False,2.0
+28,29,joao.santos@gmail.com,2025-07-09T13:40:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,10,2,False,4.8
+29,30,cleber@gmail.com,2025-07-10T15:50:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,2,10,True,6.8
+30,31,ana.silva@gmail.com,2025-07-11T17:05:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,5,8,True,7.2
+31,32,carlos.souza@gmail.com,2025-07-12T19:25:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,8,5,True,7.2
+32,33,julia.martins@gmail.com,2025-07-13T21:35:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,3,3,True,4.4
+33,34,marina.oliveira@gmail.com,2025-07-14T08:10:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,6,7,True,7.2
+34,35,pedro.silva@gmail.com,2025-07-15T10:20:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,9,6,True,8.0
+35,36,lucas.costa@gmail.com,2025-07-16T12:30:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,1,9,True,6.0
+36,37,rafael.pereira@gmail.com,2025-07-17T14:40:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,4,1,True,4.0
+38,39,joao.santos@gmail.com,2025-07-19T18:00:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,10,2,False,4.8
+39,40,cleber@gmail.com,2025-07-20T20:10:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,2,10,False,4.8
+40,41,ana.silva@gmail.com,2025-08-01T09:00:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,5,8,False,5.2
+41,42,carlos.souza@gmail.com,2025-08-02T11:10:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,8,5,False,5.2
+42,43,julia.martins@gmail.com,2025-08-03T13:20:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,3,3,False,2.4
+43,44,marina.oliveira@gmail.com,2025-08-04T15:30:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,6,7,False,5.2
+44,45,pedro.silva@gmail.com,2025-08-05T17:40:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,9,6,False,6.0
+45,46,lucas.costa@gmail.com,2025-08-06T19:50:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,1,9,False,4.0
+46,47,rafael.pereira@gmail.com,2025-08-07T21:00:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,4,1,False,2.0
+48,49,joao.santos@gmail.com,2025-08-09T10:20:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,10,2,False,4.8
+49,50,cleber@gmail.com,2025-08-10T12:30:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,2,10,False,4.8
+50,51,maria.costa@gmail.com,2025-08-11T14:00:00,,-27.64,-48.48,88063-000,Florianópolis,SC,Campeche,4,6,False,4.0
+51,52,joana.pereira@gmail.com,2025-08-12T15:10:00,,-27.43,-48.46,88054-000,Florianópolis,SC,Canasvieiras,6,4,False,4.0
+52,53,ricardo.alves@gmail.com,2025-08-13T16:20:00,,-27.44,-48.51,88053-300,Florianópolis,SC,Jurerê,8,2,False,4.0
+53,54,beatriz.santos@gmail.com,2025-08-14T17:30:00,,-27.595,-48.455,88062-100,Florianópolis,SC,Lagoa da Conceição,3,8,True,6.4
+54,55,fernando.lima@gmail.com,2025-08-15T18:40:00,,-27.635,-48.465,88048-400,Florianópolis,SC,Rio Tavares,5,5,False,4.0
+55,56,ana.silva@gmail.com,2025-08-16T10:00:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,3,7,True,6.0
+56,57,carlos.souza@gmail.com,2025-08-17T11:20:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,8,2,False,4.0
+57,58,julia.martins@gmail.com,2025-08-18T12:40:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,5,5,True,6.0
+58,59,marina.oliveira@gmail.com,2025-08-19T14:00:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,2,9,False,4.4
+59,60,pedro.silva@gmail.com,2025-08-20T15:20:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,7,4,True,6.4
+60,61,lucas.costa@gmail.com,2025-08-21T16:40:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,9,1,False,4.0
+61,62,rafael.pereira@gmail.com,2025-08-22T18:00:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,4,8,True,6.8
+62,63,joao.santos@gmail.com,2025-08-23T19:20:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,1,6,False,2.8
+63,64,cleber@gmail.com,2025-08-24T20:40:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,10,3,True,7.2
+64,65,maria.costa@gmail.com,2025-08-25T09:00:00,,-27.64,-48.48,88063-000,Florianópolis,SC,Campeche,6,7,False,5.2
+65,66,joana.pereira@gmail.com,2025-08-26T10:20:00,,-27.43,-48.46,88054-000,Florianópolis,SC,Canasvieiras,3,2,True,4.0
+66,67,ricardo.alves@gmail.com,2025-08-27T11:40:00,,-27.44,-48.51,88053-300,Florianópolis,SC,Jurerê,8,9,False,6.8
+67,68,beatriz.santos@gmail.com,2025-08-28T13:00:00,,-27.595,-48.455,88062-100,Florianópolis,SC,Lagoa da Conceição,5,4,True,5.6
+68,69,fernando.lima@gmail.com,2025-08-29T14:20:00,,-27.635,-48.465,88048-400,Florianópolis,SC,Rio Tavares,2,1,False,1.2
+69,70,ana.silva@gmail.com,2025-08-30T15:40:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,9,6,True,8.0
+70,71,carlos.souza@gmail.com,2025-09-01T10:00:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,1,8,False,3.6
+71,72,julia.martins@gmail.com,2025-09-02T11:20:00,,-27.5895,-48.5433,88025-200,Florianópolis,SC,Agronômica,7,3,True,6.0
+72,73,marina.oliveira@gmail.com,2025-09-03T12:40:00,,-27.5855,-48.5144,88030-000,Florianópolis,SC,Itacorubi,4,5,False,3.6
+73,74,pedro.silva@gmail.com,2025-09-04T14:00:00,,-27.5943,-48.5036,88035-001,Florianópolis,SC,Santa Mônica,10,2,True,6.8
+74,75,lucas.costa@gmail.com,2025-09-05T15:20:00,,-27.6007,-48.5196,88040-400,Florianópolis,SC,Trindade,6,9,False,6.0
+75,76,rafael.pereira@gmail.com,2025-09-06T16:40:00,,-27.5012,-48.4375,88050-000,Florianópolis,SC,Ingleses do Rio Vermelho,3,7,True,6.0
+76,77,joao.santos@gmail.com,2025-09-07T18:00:00,,-27.5915,-48.5836,88070-000,Florianópolis,SC,Estreito,8,1,False,3.6
+77,78,cleber@gmail.com,2025-09-08T19:20:00,,-27.5915,-48.5836,88075-000,Florianópolis,SC,Estreito,5,6,True,6.4
+78,79,maria.costa@gmail.com,2025-09-09T20:40:00,,-27.64,-48.48,88063-000,Florianópolis,SC,Campeche,2,4,False,2.4
+79,80,joana.pereira@gmail.com,2025-09-10T09:00:00,,-27.43,-48.46,88054-000,Florianópolis,SC,Canasvieiras,9,8,True,8.8
+80,81,ricardo.alves@gmail.com,2025-09-11T10:20:00,,-27.44,-48.51,88053-300,Florianópolis,SC,Jurerê,1,3,False,1.6
+81,82,beatriz.santos@gmail.com,2025-09-12T11:40:00,,-27.595,-48.455,88062-100,Florianópolis,SC,Lagoa da Conceição,7,5,True,6.8
+82,83,fernando.lima@gmail.com,2025-09-13T13:00:00,,-27.635,-48.465,88048-400,Florianópolis,SC,Rio Tavares,4,9,False,5.2
+83,84,ana.silva@gmail.com,2025-09-14T14:20:00,,-27.5935,-48.5585,88015-700,Florianópolis,SC,Centro,10,1,True,6.4
+84,85,carlos.souza@gmail.com,2025-09-15T15:40:00,,-27.5975,-48.5494,88020-001,Florianópolis,SC,Centro,6,7,False,5.2
