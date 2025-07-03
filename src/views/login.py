@@ -4,7 +4,7 @@ from time import sleep
 @st.dialog("Login", width="large")
 def login_dialog():
     st.markdown("## Insira suas credenciais para acessar o sistema")
-    user = st.text_input("Usuário", icon=":material/person:")
+    user = st.text_input("Nome de usuário ou email", icon=":material/person:")
     st.text_input("Senha", icon=":material/key:", type="password")
     with st.container(border=True):
         cols = st.columns(2)
@@ -27,7 +27,8 @@ user_types = ["Comum", "Autoridade", "Entidade"]
 @st.dialog("Registro", width="large")
 def register_user_dialog():
     st.markdown("## Insira suas credenciais para se cadastrar no sistema")
-    user = st.text_input("Insira um nome de usuário", icon=":material/person:")
+    user = st.text_input("Insira seu nome", icon=":material/person:")
+    st.text_input("Insira seu email", icon=":material/mail:")
     st.text_input("Crie uma senha", icon=":material/key:", type="password")
     user_type = st.pills("Tipo de usuário", options=user_types, default=user_types[0])
     if user_type != "Comum":

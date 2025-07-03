@@ -90,5 +90,5 @@ def data():
     cols[1].bar_chart(bar_df, color="#1bd072")
 
     # --- Area Chart: Intensidade ao longo do tempo ---
-    cols[1].markdown("### Incidência ao longo do tempo")
+    cols[2].markdown("### Registros de focos ao longo do tempo")
     cols[2].area_chart(line_df, color="#1bd072")
